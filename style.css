@@ -1,0 +1,100 @@
+body {
+  background-color: black;
+}
+
+#map {
+  color: aliceblue;
+  border-width: 5px;
+  border-color: white;
+}
+
+table {
+  height: 100%;
+  width: 100%;
+}
+
+.cell {
+  /* border: 2px solid #fff; */
+  height: 20%;
+  width: 12.5%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 5em;
+  /*cursor: pointer;*/
+  color: white;
+}
+
+.painted-cell {
+  cursor: pointer;
+  background-color: white;
+}
+
+/*
+.clicked-cell {
+  background-color: black;
+  color: black;
+}
+*/
+#retry {
+  display: none;
+  width: 200px;
+  top: 220px;
+  background-color: rgba(62, 42, 243, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+
+#start {
+  width: 200px;
+  top: 120px;
+  background-color: rgba(62, 42, 243, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+#you-lose {
+  display: none;
+  width: 200px;
+  top: 50px;
+  background-color: rgba(252, 0, 0, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+
+#you-win {
+  display: none;
+  width: 200px;
+  top: 50px;
+  background-color: rgba(0, 252, 13, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
